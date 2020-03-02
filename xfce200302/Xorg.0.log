@@ -1,0 +1,293 @@
+[   114.217] 
+X.Org X Server 1.20.7
+X Protocol Version 11, Revision 0
+[   114.217] Build Operating System: Linux Void
+[   114.217] Current Operating System: Linux void-live 5.5.0_1 #1 SMP Wed Feb 19 20:39:42 UTC 2020 aarch64
+[   114.217] Kernel command line: console=tty1 root=PARTUUID=16b7e498-02 rw rootwait append video=eDP-1:1920x1080@60
+[   114.217] Build Date: 14 January 2020  02:00:55PM
+[   114.217]  
+[   114.217] Current version of pixman: 0.38.4
+[   114.217] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   114.217] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   114.217] (==) Log file: "/var/log/Xorg.0.log", Time: Sun Mar  1 20:16:36 2020
+[   114.218] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   114.219] (==) No Layout section.  Using the first Screen section.
+[   114.219] (==) No screen section available. Using defaults.
+[   114.219] (**) |-->Screen "Default Screen Section" (0)
+[   114.219] (**) |   |-->Monitor "<default monitor>"
+[   114.220] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   114.220] (==) Automatically adding devices
+[   114.220] (==) Automatically enabling devices
+[   114.220] (==) Automatically adding GPU devices
+[   114.220] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   114.220] (WW) The directory "/usr/share/fonts/X11/OTF" does not exist.
+[   114.220] 	Entry deleted from font path.
+[   114.220] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/TTF,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	/usr/share/fonts/X11/75dpi
+[   114.220] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   114.220] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   114.220] (II) Module ABI versions:
+[   114.220] 	X.Org ANSI C Emulation: 0.4
+[   114.220] 	X.Org Video Driver: 24.1
+[   114.220] 	X.Org XInput driver : 24.1
+[   114.220] 	X.Org Server Extension : 10.0
+[   114.221] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   114.231] (II) xfree86: Adding drm device (/dev/dri/card1)
+[   114.232] (II) no primary bus or device found
+[   114.232] 	falling back to /sys/devices/platform/display-subsystem/drm/card0
+[   114.232] (II) LoadModule: "glx"
+[   114.233] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   114.238] (II) Module glx: vendor="X.Org Foundation"
+[   114.238] 	compiled for 1.20.7, module version = 1.0.0
+[   114.238] 	ABI class: X.Org Server Extension, version 10.0
+[   114.238] (==) Matched modesetting as autoconfigured driver 0
+[   114.238] (==) Matched fbdev as autoconfigured driver 1
+[   114.238] (==) Assigned the driver to the xf86ConfigLayout
+[   114.238] (II) LoadModule: "modesetting"
+[   114.239] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   114.241] (II) Module modesetting: vendor="X.Org Foundation"
+[   114.241] 	compiled for 1.20.7, module version = 1.20.7
+[   114.241] 	Module class: X.Org Video Driver
+[   114.241] 	ABI class: X.Org Video Driver, version 24.1
+[   114.241] (II) LoadModule: "fbdev"
+[   114.242] (WW) Warning, couldn't open module fbdev
+[   114.242] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[   114.242] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   114.242] (++) using VT number 1
+
+[   114.242] (--) controlling tty is VT number 1, auto-enabling KeepTty
+[   114.247] (II) modeset(0): using drv /dev/dri/card0
+[   114.247] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   114.248] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[   114.248] (==) modeset(0): RGB weight 888
+[   114.248] (==) modeset(0): Default visual is TrueColor
+[   114.248] (II) Loading sub module "glamoregl"
+[   114.248] (II) LoadModule: "glamoregl"
+[   114.248] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[   114.257] (II) Module glamoregl: vendor="X.Org Foundation"
+[   114.257] 	compiled for 1.20.7, module version = 1.0.1
+[   114.257] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   114.696] (II) modeset(0): glamor X acceleration enabled on panfrost
+[   114.696] (II) modeset(0): glamor initialized
+[   114.697] (II) modeset(0): Output eDP-1 has no monitor section
+[   114.697] (II) modeset(0): Output DP-1 has no monitor section
+[   114.697] (II) modeset(0): EDID for output eDP-1
+[   114.697] (II) modeset(0): Printing probed modes for output eDP-1
+[   114.697] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 1968 2000 2200  1080 1083 1088 1125 (67.5 kHz eP)
+[   114.698] (II) modeset(0): EDID for output DP-1
+[   114.698] (II) modeset(0): Output eDP-1 connected
+[   114.698] (II) modeset(0): Output DP-1 disconnected
+[   114.698] (II) modeset(0): Using exact sizes for initial modes
+[   114.698] (II) modeset(0): Output eDP-1 using initial mode 1920x1080 +0+0
+[   114.698] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[   114.698] (==) modeset(0): DPI set to (96, 96)
+[   114.698] (II) Loading sub module "fb"
+[   114.698] (II) LoadModule: "fb"
+[   114.699] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   114.701] (II) Module fb: vendor="X.Org Foundation"
+[   114.701] 	compiled for 1.20.7, module version = 1.0.0
+[   114.701] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   114.803] (==) modeset(0): Backing store enabled
+[   114.803] (==) modeset(0): Silken mouse disabled
+[   114.814] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[   114.814] (==) modeset(0): DPMS enabled
+[   114.814] (II) modeset(0): [DRI2] Setup complete
+[   114.814] (II) modeset(0): [DRI2]   DRI driver: rockchip
+[   114.814] (II) modeset(0): [DRI2]   VDPAU driver: rockchip
+[   114.814] (II) Initializing extension Generic Event Extension
+[   114.815] (II) Initializing extension SHAPE
+[   114.815] (II) Initializing extension MIT-SHM
+[   114.815] (II) Initializing extension XInputExtension
+[   114.816] (II) Initializing extension XTEST
+[   114.816] (II) Initializing extension BIG-REQUESTS
+[   114.817] (II) Initializing extension SYNC
+[   114.817] (II) Initializing extension XKEYBOARD
+[   114.818] (II) Initializing extension XC-MISC
+[   114.818] (II) Initializing extension SECURITY
+[   114.819] (II) Initializing extension XFIXES
+[   114.819] (II) Initializing extension RENDER
+[   114.820] (II) Initializing extension RANDR
+[   114.821] (II) Initializing extension COMPOSITE
+[   114.821] (II) Initializing extension DAMAGE
+[   114.822] (II) Initializing extension MIT-SCREEN-SAVER
+[   114.822] (II) Initializing extension DOUBLE-BUFFER
+[   114.823] (II) Initializing extension RECORD
+[   114.823] (II) Initializing extension DPMS
+[   114.823] (II) Initializing extension Present
+[   114.824] (II) Initializing extension DRI3
+[   114.824] (II) Initializing extension X-Resource
+[   114.825] (II) Initializing extension XVideo
+[   114.825] (II) Initializing extension XVideo-MotionCompensation
+[   114.825] (II) Initializing extension GLX
+[   115.098] (II) AIGLX: Loaded and initialized rockchip
+[   115.099] (II) GLX: Initialized DRI2 GL provider for screen 0
+[   115.099] (II) Initializing extension XFree86-VidModeExtension
+[   115.101] (II) Initializing extension XFree86-DGA
+[   115.104] (II) Initializing extension XFree86-DRI
+[   115.104] (II) Initializing extension DRI2
+[   115.115] (II) modeset(0): Damage tracking initialized
+[   115.115] (II) modeset(0): Setting screen physical size to 508 x 285
+[   115.412] (II) config/udev: Adding input device rockchip,es8316-codec Headphones (/dev/input/event3)
+[   115.412] (II) No input driver specified, ignoring this device.
+[   115.412] (II) This device may have been added with another device file.
+[   115.412] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD (/dev/input/event0)
+[   115.412] (**) HAILUCK CO.,LTD USB KEYBOARD: Applying InputClass "evdev keyboard catchall"
+[   115.413] (**) HAILUCK CO.,LTD USB KEYBOARD: Applying InputClass "libinput keyboard catchall"
+[   115.413] (II) LoadModule: "libinput"
+[   115.413] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   115.416] (II) Module libinput: vendor="X.Org Foundation"
+[   115.416] 	compiled for 1.20.5, module version = 0.29.0
+[   115.416] 	Module class: X.Org XInput Driver
+[   115.416] 	ABI class: X.Org XInput driver, version 24.1
+[   115.416] (II) Using input driver 'libinput' for 'HAILUCK CO.,LTD USB KEYBOARD'
+[   115.416] (**) HAILUCK CO.,LTD USB KEYBOARD: always reports core events
+[   115.416] (**) Option "Device" "/dev/input/event0"
+[   115.416] (**) Option "_source" "server/udev"
+[   115.419] (II) event0  - HAILUCK CO.,LTD USB KEYBOARD: is tagged by udev as: Keyboard
+[   115.419] (II) event0  - HAILUCK CO.,LTD USB KEYBOARD: device is a keyboard
+[   115.420] (II) event0  - HAILUCK CO.,LTD USB KEYBOARD: device removed
+[   115.460] (**) Option "config_info" "udev:/sys/devices/platform/fe3a0000.usb/usb3/3-1/3-1:1.0/0003:258A:001E.0001/input/input0/event0"
+[   115.460] (II) XINPUT: Adding extended input device "HAILUCK CO.,LTD USB KEYBOARD" (type: KEYBOARD, id 6)
+[   115.467] (II) event0  - HAILUCK CO.,LTD USB KEYBOARD: is tagged by udev as: Keyboard
+[   115.467] (II) event0  - HAILUCK CO.,LTD USB KEYBOARD: device is a keyboard
+[   115.471] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD Touchpad (/dev/input/event5)
+[   115.471] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: Applying InputClass "evdev touchpad catchall"
+[   115.471] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: Applying InputClass "libinput touchpad catchall"
+[   115.471] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: Applying InputClass "touchpad catchall"
+[   115.471] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: Applying InputClass "Default clickpad buttons"
+[   115.471] (II) LoadModule: "synaptics"
+[   115.471] (II) Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[   115.472] (II) Module synaptics: vendor="X.Org Foundation"
+[   115.472] 	compiled for 1.20.0, module version = 1.9.1
+[   115.472] 	Module class: X.Org XInput Driver
+[   115.472] 	ABI class: X.Org XInput driver, version 24.1
+[   115.472] (II) Using input driver 'synaptics' for 'HAILUCK CO.,LTD USB KEYBOARD Touchpad'
+[   115.472] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: always reports core events
+[   115.472] (**) Option "Device" "/dev/input/event5"
+[   115.580] (II) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: found clickpad property
+[   115.580] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: x-axis range 0 - 1400 (res 29)
+[   115.580] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: y-axis range 0 - 914 (res 29)
+[   115.580] (II) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: device does not report pressure, will use touch data.
+[   115.580] (II) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: device does not report finger width.
+[   115.580] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: buttons: left double triple
+[   115.580] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: Vendor 0x258a Product 0x1e
+[   115.580] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: invalid pressure range.  defaulting to 0 - 255
+[   115.580] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: invalid finger width range.  defaulting to 0 - 15
+[   115.581] (**) Option "SoftButtonAreas" "50% 0 82% 0 0 0 0 0"
+[   115.581] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: touchpad found
+[   115.581] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: always reports core events
+[   115.660] (**) Option "config_info" "udev:/sys/devices/platform/fe3a0000.usb/usb3/3-1/3-1:1.1/0003:258A:001E.0002/input/input10/event5"
+[   115.660] (II) XINPUT: Adding extended input device "HAILUCK CO.,LTD USB KEYBOARD Touchpad" (type: TOUCHPAD, id 7)
+[   115.660] (**) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) MinSpeed is now constant deceleration 2.5
+[   115.660] (**) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) MaxSpeed is now 1.75
+[   115.660] (**) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) AccelFactor is now 0.120
+[   115.661] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) keeping acceleration scheme 1
+[   115.661] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) acceleration profile 1
+[   115.661] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) acceleration factor: 2.000
+[   115.661] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: (accel) acceleration threshold: 4
+[   115.662] (--) synaptics: HAILUCK CO.,LTD USB KEYBOARD Touchpad: touchpad found
+[   115.663] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD Touchpad (/dev/input/mouse1)
+[   115.664] (**) HAILUCK CO.,LTD USB KEYBOARD Touchpad: Ignoring device from InputClass "touchpad ignore duplicates"
+[   115.665] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD System Control (/dev/input/event6)
+[   115.665] (**) HAILUCK CO.,LTD USB KEYBOARD System Control: Applying InputClass "evdev keyboard catchall"
+[   115.666] (**) HAILUCK CO.,LTD USB KEYBOARD System Control: Applying InputClass "libinput keyboard catchall"
+[   115.666] (II) Using input driver 'libinput' for 'HAILUCK CO.,LTD USB KEYBOARD System Control'
+[   115.666] (**) HAILUCK CO.,LTD USB KEYBOARD System Control: always reports core events
+[   115.666] (**) Option "Device" "/dev/input/event6"
+[   115.666] (**) Option "_source" "server/udev"
+[   115.671] (II) event6  - HAILUCK CO.,LTD USB KEYBOARD System Control: is tagged by udev as: Keyboard
+[   115.671] (II) event6  - HAILUCK CO.,LTD USB KEYBOARD System Control: device is a keyboard
+[   115.672] (II) event6  - HAILUCK CO.,LTD USB KEYBOARD System Control: device removed
+[   115.740] (**) Option "config_info" "udev:/sys/devices/platform/fe3a0000.usb/usb3/3-1/3-1:1.1/0003:258A:001E.0002/input/input11/event6"
+[   115.740] (II) XINPUT: Adding extended input device "HAILUCK CO.,LTD USB KEYBOARD System Control" (type: KEYBOARD, id 8)
+[   115.747] (II) event6  - HAILUCK CO.,LTD USB KEYBOARD System Control: is tagged by udev as: Keyboard
+[   115.748] (II) event6  - HAILUCK CO.,LTD USB KEYBOARD System Control: device is a keyboard
+[   115.751] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD Consumer Control (/dev/input/event7)
+[   115.751] (**) HAILUCK CO.,LTD USB KEYBOARD Consumer Control: Applying InputClass "evdev keyboard catchall"
+[   115.751] (**) HAILUCK CO.,LTD USB KEYBOARD Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   115.751] (II) Using input driver 'libinput' for 'HAILUCK CO.,LTD USB KEYBOARD Consumer Control'
+[   115.751] (**) HAILUCK CO.,LTD USB KEYBOARD Consumer Control: always reports core events
+[   115.751] (**) Option "Device" "/dev/input/event7"
+[   115.751] (**) Option "_source" "server/udev"
+[   115.753] (II) event7  - HAILUCK CO.,LTD USB KEYBOARD Consumer Control: is tagged by udev as: Keyboard
+[   115.753] (II) event7  - HAILUCK CO.,LTD USB KEYBOARD Consumer Control: device is a keyboard
+[   115.753] (II) event7  - HAILUCK CO.,LTD USB KEYBOARD Consumer Control: device removed
+[   115.800] (**) Option "config_info" "udev:/sys/devices/platform/fe3a0000.usb/usb3/3-1/3-1:1.1/0003:258A:001E.0002/input/input12/event7"
+[   115.800] (II) XINPUT: Adding extended input device "HAILUCK CO.,LTD USB KEYBOARD Consumer Control" (type: KEYBOARD, id 9)
+[   115.807] (II) event7  - HAILUCK CO.,LTD USB KEYBOARD Consumer Control: is tagged by udev as: Keyboard
+[   115.808] (II) event7  - HAILUCK CO.,LTD USB KEYBOARD Consumer Control: device is a keyboard
+[   115.810] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control (/dev/input/event8)
+[   115.811] (**) HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: Applying InputClass "evdev keyboard catchall"
+[   115.811] (**) HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: Applying InputClass "libinput keyboard catchall"
+[   115.811] (II) Using input driver 'libinput' for 'HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control'
+[   115.811] (**) HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: always reports core events
+[   115.811] (**) Option "Device" "/dev/input/event8"
+[   115.811] (**) Option "_source" "server/udev"
+[   115.813] (II) event8  - HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: is tagged by udev as: Keyboard
+[   115.813] (II) event8  - HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: device is a keyboard
+[   115.814] (II) event8  - HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: device removed
+[   115.920] (**) Option "config_info" "udev:/sys/devices/platform/fe3a0000.usb/usb3/3-1/3-1:1.1/0003:258A:001E.0002/input/input13/event8"
+[   115.920] (II) XINPUT: Adding extended input device "HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control" (type: KEYBOARD, id 10)
+[   115.927] (II) event8  - HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: is tagged by udev as: Keyboard
+[   115.928] (II) event8  - HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control: device is a keyboard
+[   115.931] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD Mouse (/dev/input/event4)
+[   115.931] (**) HAILUCK CO.,LTD USB KEYBOARD Mouse: Applying InputClass "evdev pointer catchall"
+[   115.931] (**) HAILUCK CO.,LTD USB KEYBOARD Mouse: Applying InputClass "libinput pointer catchall"
+[   115.931] (II) Using input driver 'libinput' for 'HAILUCK CO.,LTD USB KEYBOARD Mouse'
+[   115.931] (**) HAILUCK CO.,LTD USB KEYBOARD Mouse: always reports core events
+[   115.931] (**) Option "Device" "/dev/input/event4"
+[   115.931] (**) Option "_source" "server/udev"
+[   115.933] (II) event4  - HAILUCK CO.,LTD USB KEYBOARD Mouse: is tagged by udev as: Mouse
+[   115.934] (II) event4  - HAILUCK CO.,LTD USB KEYBOARD Mouse: device is a pointer
+[   115.934] (II) event4  - HAILUCK CO.,LTD USB KEYBOARD Mouse: device removed
+[   116.040] (**) Option "config_info" "udev:/sys/devices/platform/fe3a0000.usb/usb3/3-1/3-1:1.1/0003:258A:001E.0002/input/input9/event4"
+[   116.040] (II) XINPUT: Adding extended input device "HAILUCK CO.,LTD USB KEYBOARD Mouse" (type: MOUSE, id 11)
+[   116.041] (**) Option "AccelerationScheme" "none"
+[   116.041] (**) HAILUCK CO.,LTD USB KEYBOARD Mouse: (accel) selected scheme none/0
+[   116.041] (**) HAILUCK CO.,LTD USB KEYBOARD Mouse: (accel) acceleration factor: 2.000
+[   116.041] (**) HAILUCK CO.,LTD USB KEYBOARD Mouse: (accel) acceleration threshold: 4
+[   116.047] (II) event4  - HAILUCK CO.,LTD USB KEYBOARD Mouse: is tagged by udev as: Mouse
+[   116.048] (II) event4  - HAILUCK CO.,LTD USB KEYBOARD Mouse: device is a pointer
+[   116.051] (II) config/udev: Adding input device HAILUCK CO.,LTD USB KEYBOARD Mouse (/dev/input/mouse0)
+[   116.051] (II) No input driver specified, ignoring this device.
+[   116.051] (II) This device may have been added with another device file.
+[   116.052] (II) config/udev: Adding input device gpio-key-lid (/dev/input/event2)
+[   116.052] (II) No input driver specified, ignoring this device.
+[   116.052] (II) This device may have been added with another device file.
+[   116.053] (II) config/udev: Adding input device gpio-key-power (/dev/input/event1)
+[   116.053] (**) gpio-key-power: Applying InputClass "evdev keyboard catchall"
+[   116.053] (**) gpio-key-power: Applying InputClass "libinput keyboard catchall"
+[   116.053] (II) Using input driver 'libinput' for 'gpio-key-power'
+[   116.053] (**) gpio-key-power: always reports core events
+[   116.053] (**) Option "Device" "/dev/input/event1"
+[   116.053] (**) Option "_source" "server/udev"
+[   116.055] (II) event1  - gpio-key-power: is tagged by udev as: Keyboard
+[   116.055] (II) event1  - gpio-key-power: device is a keyboard
+[   116.056] (II) event1  - gpio-key-power: device removed
+[   116.120] (**) Option "config_info" "udev:/sys/devices/platform/gpio-key-power/input/input6/event1"
+[   116.120] (II) XINPUT: Adding extended input device "gpio-key-power" (type: KEYBOARD, id 12)
+[   116.125] (II) event1  - gpio-key-power: is tagged by udev as: Keyboard
+[   116.125] (II) event1  - gpio-key-power: device is a keyboard
+[   122.691] (EE) Segmentation fault at address 0xaadae85bf778
+[   122.691] (EE) 
+Fatal server error:
+[   122.691] (EE) Caught signal 11 (Segmentation fault). Server aborting
+[   122.691] (EE) 
+[   122.691] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   122.691] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[   122.691] (EE) 
+[   122.692] (II) AIGLX: Suspending AIGLX clients for VT switch
+[   122.737] (EE) Server terminated with error (1). Closing log file.
